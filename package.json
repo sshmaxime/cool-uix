@@ -1,0 +1,46 @@
+{
+  "name": "material-next-ts",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@premier-labs/contracts": "^0.0.84",
+    "@rainbow-me/rainbowkit": "^0.12.12",
+    "@react-spring/web": "^9.7.2",
+    "@react-three/drei": "^9.66.6",
+    "@react-three/fiber": "^8.13.0",
+    "@types/three": "^0.152.0",
+    "axios-retry": "^3.4.0",
+    "ethers": "^5",
+    "lodash": "^4.17.21",
+    "next": "latest",
+    "next-plugin-svgr": "^1.1.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-query": "^3.39.3",
+    "swiper": "^9.3.1",
+    "three": "^0.152.2",
+    "wagmi": "^0.12.13",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
